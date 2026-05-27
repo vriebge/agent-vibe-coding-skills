@@ -6,6 +6,8 @@
 
 你要构建的是一个**教学级可运行 Finance Agent 原型**，用来给学员示范：在 Codex、Claude Code 这类 AI coding 环境里，如何借助 Skill、Superpowers、worktree、TDD、Spec-first 和评测，把 Web 项目做成一个真正的 Agent 工程，而不是让 AI 直接糊一堆代码。
 
+如果你想先优化本提示词依赖的两个自定义 skill，可以让 Agent 阅读 [earendil-works/pi](https://github.com/earendil-works/pi) 和 [craft-ai-agents/craft-agents-oss](https://github.com/craft-ai-agents/craft-agents-oss) 的代码结构，再反向改进 `pi-coding-agent` 与 `craft-agent-template`。
+
 如果你当前环境没有安装下面这些能力，先停下来提示用户安装，不要假装已经加载：
 
 - `pi-coding-agent` skill：用于参考 Pi 的工具注册、Provider 抽象、JSONL session、RPC、Skill / Prompt 机制。
